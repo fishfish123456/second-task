@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>清泽心雨报名入口</title>
+		<style type="text/css">
+		h1{font-size: 50px; font-family:"Adobe 黑体 Std",sans-serif;}
+		input{border-radius:24px;
+		      font-size:22.33px;
+			  height:40px;
+			  width:157px;}
+		select{border-radius:24px;
+		       font-size:22.33px;
+			   width:305px;
+			   height:42px;
+			   }
+		textarea{border-radius:24px;
+		        font-size:22.33px;
+				display:block;
+				width:783px;
+				height:112px;}			 
+		.title{margin-top: 100px;
+		       margin-left: 289px;
+			   margin-bottom: 60px;
+			   color: #ffffff;}
+		.first {width:934px;
+				height:664px;
+				border:2px solid #6fcaef; 
+				margin-top:0px ; 
+			    margin-left:500px ;
+			    border-radius:25px;
+			    box-shadow: 10px 10px 5px #6fcaef;
+				position:relative;
+				font-size: 22.33px;
+				}
+		.myname{position: absolute;
+		       top:81px;
+			   left:80px;}
+		.gender{position: absolute;
+		       top:81px;
+			   left:336px;}	
+		.major{position: absolute;
+		       top:168px;
+			   left:80px;}
+		.class{position: absolute;
+		       top:168px;
+			   left:336px;}
+		.number{position: absolute;
+		        top:247px ;
+				left:80px ;}
+		.photo{position: absolute;
+		       top:84px;
+			   right:110px;
+				 
+				 display:block;}
+		.futureone{position: absolute;
+		       top:324px;
+			   left:80px;}
+		.futuretwo{position:absolute ;
+		          top:324px;
+				  left:514px;}	   
+		.reason{position:absolute;
+		        top:400px;
+				left:80px;}	
+		.submit{position:absolute;
+		        top:583px;
+				left:388px;
+				font-size: 22.33px;}
+		.photo-write{position: absolute;
+		            writing-mode:tb-rl;
+								top:145px;
+								right:275px;
+								}							
+		</style>	
+    </head>
+	<body>
+	<body background="photo.png">
+    <body>
+		<div class="title">
+		    <h1>清泽心雨报名入口</h1>
+		</div>
+		<div class="first" style="display:inline-block">
+		    <form method="post" action="save.php"  >
+		        <div class="myname">
+			        姓名：
+			       <input type="text"  name="myname"  ></div>
+		        <div class="gender">
+			        性别：
+			        <input  type="text" name="gender" ></div>
+		        <div class="major">	
+			        专业：
+			         <input  tupe="text" name="major" ></div>
+		        <div class="class">	
+			        班级：
+			        <input type="text" name="class" ></div>
+		        <div class="number">
+			        电话号码：
+			         <input type="tel" name="number" style="width:380px;"></div>
+		        <div class="photo">	
+			      <img src="photo-one.png"title = "photo-one"></div>  
+			      <div class="photo-write">
+						  <p>照&nbsp&nbsp&nbsp&nbsp&nbsp片</p></div>
+					
+			</form>
+		    <div class="futureone">		
+		        <label>志愿：</label>
+		        <select>
+		            <option value="空白"></option>
+		            <option value="综合办公室">综合办公室</option>
+		            <option value="公关策划部">公关策划部</option>
+		            <option value="综合媒体集体">综合媒体集体</option>
+		            <option value="新闻集团">新闻集团</option>
+		            <optgroup label="网络安全部">网络安全部
+		                <option value="蓝之青">蓝之青</option>
+		            <optgroup label="视觉设计部">视觉设计部
+		                <option value="卡乐坊">卡乐坊</option>  
+                    <optgroup label="技术开发部">
+			            <option value="ued">ued</option>
+                    <optgroup label="视屏集团">视屏集团
+			            <option value="微效坊">微效坊</option>
+			            <option value="微影像">微影像</option>
+			            <option value="电视台">电视台</option>
+			    </select>
+			</div>
+	    <div class="futuretwo">		
+			    <select>
+				    <option value="空白"></option>
+		            <option value="综合办公室">综合办公室</option>
+			        <option value="公关策划部">公关策划部</option>
+			        <option value="综合媒体集体">综合媒体集体</option>
+			        <option value="新闻集团">新闻集团</option>
+			        <optgroup label="网络安全部">网络安全部
+			            <option value="蓝之青">蓝之青</option>
+			        <optgroup label="视觉设计部">视觉设计部
+			            <option value="卡乐坊">卡乐坊</option>
+			        <optgroup label="技术开发部">
+			            <option value="ued">ued</option>
+			        <optgroup label="视屏集团">视屏集团
+			            <option value="微效坊">微效坊</option>
+			            <option value="微影像">微影像</option>
+			            <option value="电视台">电视台</option>
+			    </select>
+			</div>
+		<div class="reason">
+		    <form method="post"   action="save.php" >
+			    <label><center>填报理由</center></label>
+			    <textarea  cols="60"rows="5"></textarea>
+			</form>
+		</div>
+		<div class="submit">	 
+             <input  type="submit"style="font-size:22.33px;width:154px;height:60px;color:#ffffff;background:#51b3f5;display:block;"  value="完成">
+		</div>
+		 
+    </div>
+		
+	</body>
+</html>
